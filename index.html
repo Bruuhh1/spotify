@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://icons8.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Spotify</title>
+</head>
+<body>
+    <header class="nav-container">
+        <img src="img/icons8-spotify-50.png" class="logo" alt="Logo Spotify">
+        <img src="img/icons8-home-48.png" class="home" alt="Casa">
+
+        <div class="search-bar">
+            <img src="img/icons8-pesquisar-30.png" alt="Pesquisar">
+            <input placeholder="O que você quer ouvir?">
+            <img src="img/icons8-arquivo-48.png" class="arquivo" alt="Arquivo">
+        </div>
+
+        <div class="nav nav-um">
+            <a href="#">Premium</a>
+            <a href="#">Suporte</a>
+            <a href="#">Baixar</a>
+        </div>
+        |
+        <div class="nav nav-dois">
+            <a href="#">Instalar aplicativo</a>
+            <a href="#">Inscrever-se</a>
+        </div>
+        <a href="#" class="botao">Entrar</a>
+    </header>
+    
+    <div class="content-wrapper">
+        <aside>
+            <div class="nav-library">
+                <p>Sua Biblioteca</p>
+                <img src="img/icons8-soma-50.png" alt="Adicionar">
+            </div>
+            <div class="card-um">
+                <div class="nav-playlist">
+                    <h5>Crie sua primeira Playlist</h5>
+                    <p>É fácil, vamos te ajudar</p>
+                    <button>Criar Playlist</button>
+                </div>
+                <div class="nav-podcast">
+                    <h5>Que tal seguir um podcast novo?</h5>
+                    <p>Avisaremos você sobre novos episódios.</p>
+                    <button>Explore Podcasts</button>
+                </div>
+            </div>
+            <div class="nav-footer">
+                <a href="#">Legal</a>
+                <a href="#">Segurança e Centro de privacidade</a>
+                <a href="#">Política de Privacidade</a>
+                <a href="#">Cookies</a><br>
+                <a href="#">Sobre anúncios</a>
+                <a href="#">Acessibilidade</a>
+            </div>
+            <button class="nav-lang-button">Português do Brasil</button>
+        </aside>
+        <main>
+            <section class="content">
+                <h2>Músicas em alta</h2>
+                <div class="songs-grid">
+                    <!--inserir dados com js-->
+                </div>
+                <h2>Artistas preferidos</h2>
+                <div class="artists-grid">
+                      <!--inserir dados com js-->
+                </div>
+            </section>
+        </main>
+        
+    </div>
+
+    <div class="banner">
+        <div>
+            <h2>Testar o Premium de graça</h2>
+            <p>Inscreva-se para curtir músicas ilimitadas só com alguns anúncios. Não precisa de cartão de crédito.</p>
+        </div>
+        <button>Inscreva-se grátis</button>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
