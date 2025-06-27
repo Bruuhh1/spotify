@@ -23,5 +23,5 @@ Link direto para as músicas e artistas
 
 # 📂 Acesso ao projeto
 
-[Veja o projeto final do curso em funcionamento](https://bruuhh1.github.io/spotify/).
+[Veja o projeto final em funcionamento](https://bruuhh1.github.io/spotify/).
 
